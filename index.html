@@ -1,0 +1,1180 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Films</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <header>
+        <h1 class="title">My Favorite  Films &#x1F3AC</h1>
+    </header>
+
+
+
+    <main class="main-section">
+
+            <!-- <form id="movieForm" class="movie-form">
+             
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" required>
+            
+              
+                <label for="director">Director:</label>
+                <input type="text" id="director" name="director" required>
+              
+                <label for="year">Año:</label>
+                <input type="number" id="year" name="year" required>
+              
+                <label for="genre">Género:</label>
+                <input type="text" id="genre" name="genre" required>
+              
+                <label for="image">URL de la Imagen:</label>
+                <input type="url" id="image" name="image" required>
+              
+                <label for="description">Descripción:</label>
+                <textarea id="description" name="description" rows="4" required></textarea>
+              
+                <button type="submit">Agregar Película</button>
+              </form> -->
+               
+
+        <table class="table">
+            <thead>
+            <tr>
+                <th scope="col" class="table-title">Title</th>
+                <th scope="col" class="table-title">Director</th>         
+                <th scope="col" class="table-title">Year</th>
+                <th scope="col" class="table-title">Genre</th>
+                <th scope="col" class="table-title"></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Emma</td>
+                <td>Autumn de Wilde</td>
+                <td>2020</td>
+                <td>Romance</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+    
+                  <div class="accordion-content">
+                    <img class="img" src="img/227976.webp"  width="700" alt="">
+                    <div class="txt">
+                        <h2>Emma</h2>
+                        <h4>HANDSOME, CLEVER, AND RICH</h4>
+                        <p>In 1800s England, a well-meaning but selfish young woman meddles in the love lives of her friends.</p>
+                   </div>
+                </div>
+                </td>
+              </tr>
+
+            <tr>
+                <td>Hot Fuzz</td>
+                <td>Edgar Wright</td>
+                <td>2007</td>
+                <td>Comedy</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                  
+                  <div class="accordion-content">
+                    <img class="img" src="img/14fe9fd9-1d62-4a75-9b39-35d8c5975331.jpg"  width="700" alt="">
+                    <div class="txt">
+                        <h2>Hot Fuzz</h2>
+                        <h4>BIG COPS. SMALL TOWN. MODERATE VIOLENCE</h4>
+                        <p>As a former London constable, Nicholas Angel finds it difficult to adapt to his new assignment in the sleepy British village of Sandford. Not only does he miss the excitement of the big city, but he also has a well-meaning oaf for a partner. However, when a series of grisly accidents rocks Sandford, Angel smells something rotten in the idyllic village.</p>
+                   </div>
+                </div>
+                </td>
+              </tr>
+
+            <tr>
+                <td>Phantom Thread</td>
+                <td>Paul Thomas Anderson</td>
+                <td>2017</td>
+                <td>Drama</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                    
+                    <div class="accordion-content">
+                        <img class="img" src="img/25phantomthread-1-videoSixteenByNineJumbo1600.jpg"  width="700" alt="">
+                        <div class="txt">
+                            <h2>Phantom Thread</h2>
+                            <p>Renowned British dressmaker Reynolds Woodcock comes across Alma, a young, strong-willed woman, who soon becomes a fixture in his life as his muse and lover.</p>
+                       </div>
+                    </div>
+                </td>
+              </tr>
+            
+            <tr>
+                <td>Charade</td>
+                <td>Stanley Donen</td>
+                <td>1963</td>
+                <td>Comedy</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                    
+                    <div class="accordion-content">
+                        <img class="img" src="img/charade.png"  width="700" alt="">
+                        <div class="txt">
+                            <h2>Charade</h2>
+                            <h4>IS ANYONE REALLY WHO THEY SEEM TO BE?</h4>
+                            <p>After Regina Lampert falls for the dashing Peter Joshua on a skiing holiday in the French Alps, she discovers upon her return to Paris that her husband has been murdered. Soon, she and Peter are giving chase to three of her late husband’s World War II cronies, Tex, Scobie and Gideon, who are after a quarter of a million dollars the quartet stole while behind enemy lines. But why does Peter keep changing his name?</p>
+                    </div>
+                </td>
+              </tr>
+
+            <tr>
+                <td>Velvet Goldmine</td>
+                <td>Todd Haynes</td>
+                <td>1998</td>
+                <td>Drama</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr> 
+            <tr class="accordion">
+                <td colspan="5">
+                  
+                    <div class="accordion-content">
+                        <img class="img" src="img/velvet-goldmine.jpeg"  width="700" alt="">
+                        <div class="txt">
+                            <h2>Velvet Goldmine</h2>
+                            <h4>STYLE MATTERS. EVEN WHEN IT COMES TO MURDER</h4>
+                            <p>Almost a decade has elapsed since Bowiesque glam-rock superstar Brian Slade escaped the spotlight of the London scene. Now, investigative journalist Arthur Stuart is on assignment to uncover the truth behind the enigmatic Slade. Stuart, himself forged by the music of the 1970s, explores the larger-than-life stars who were once his idols and what has become of them since the turn of the new decade.</p>
+                    </div>
+                </td>
+              </tr>
+
+            <tr>
+                <td>Revenge of the Sith</td>
+                <td>George Lucas</td>
+                <td>2005</td>
+                <td>Sci-Fi</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                    
+                    <div class="accordion-content">
+                        <img class="img" src="img/film_revengeofthesith_2.webp"  width="700" alt="">
+                        <div class="txt">
+                            <h2>Revenge of the Sith</h2>
+                            <h4>THE SAGA IS COMPLETE</h4>
+                            <p>The evil Darth Sidious enacts his final plan for unlimited power and the heroic Jedi Anakin Skywalker must choose a side.</p>
+                    </div>
+                </td>
+              </tr>
+
+            <tr>
+                <td>Scott Pilgrim vs the World</td>
+                <td>Edgar Wright</td>
+                <td>2010</td>
+                <td>Comedy</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                  
+                    <div class="accordion-content">
+                        <img class="img" src="img/image-w1280.webp" width="700" alt="">
+                        <div class="txt">
+                            <h2>Scott Pilgrim vs the World</h2>
+                            <h4>AN EPIC OF EPIC EPICNESS</h4>
+                            <p>Scott Pilgrim is a 23 year old radical Canadian wannabe rockstar who falls in love with an American delivery girl, Ramona Flowers, and must defeat her seven evil exes to be able to date her.</p>
+                    </div>
+                </td>
+              </tr>
+
+            <tr>
+                <td>Pride & Prejudice</td>
+                <td>Joe Wright</td>
+                <td>2005</td>
+                <td>Romance</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                    
+                    <div class="accordion-content">
+                        <img class="img" src="img/shutterstock_editorial_5885843ab-2.webp" width="700" alt="">
+                        <div class="txt">
+                            <h2>Pride & Prejudice</h2>
+                            <h4>A ROMANCE AHEAD OF ITS TIME</h4>
+                            <p>A story of love and life among the landed English gentry during the Georgian era. Mr. Bennet is a gentleman living in Hertfordshire with his overbearing wife and five daughters, but if he dies their house will be inherited by a distant cousin whom they have never met, so the family's future happiness and security is dependent on the daughters making good marriages.</p>
+                    </div>
+                </td>
+              </tr>
+
+            <tr>
+                <td>Rocketman</td>
+                <td>Dexter Fletcher</td>
+                <td>2019</td>
+                <td>Drama</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                   
+                    <div class="accordion-content">
+                        <img class="img" src="img/rocket-e1559252395866.webp" width="700" alt="">
+                        <div class="txt">
+                            <h2>Rocketman</h2>
+                            <h4>BASED ON A TRUE FANTASY</h4>
+                            <p>The story of Elton John's life, from his years as a prodigy at the Royal Academy of Music through his influential and enduring musical partnership with Bernie Taupin.</p>
+                    </div>
+                </td>
+              </tr>
+
+            <tr>
+                <td>The Social Network</td>
+                <td>David Fincher</td>
+                <td>2010</td>
+                <td>Drama</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                    
+                    <div class="accordion-content">
+                        <img class="img" src="img/1366_2000-1.jpg" width="700" alt="">
+                        <div class="txt">
+                            <h2>The Social Network</h2>
+                            <h4>YOU DON'T GET TO 500 MILLION FRIENDS WITHOUT MAKING A FEW ENEMIES</h4>
+                            <p>On a fall night in 2003, Harvard undergrad and computer programming genius Mark Zuckerberg sits down at his computer and heatedly begins working on a new idea. In a fury of blogging and programming, what begins in his dorm room as a small site among friends soon becomes a global social network and a revolution in communication. A mere six years and 500 million friends later, Mark Zuckerberg is the youngest billionaire in history… but for this entrepreneur, success leads to both personal and legal complications.</p>
+                    </div>
+                </td>
+              </tr>
+
+            <tr>
+                <td>Coraline</td>
+                <td>Henry Selick</td>
+                <td>2009</td>
+                <td>Fantasy</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                    
+                    <div class="accordion-content">
+                        <img class="img" src="img/coralinecreepyparents.jpg" width="700" alt="">
+                        <div class="txt">
+                            <h2>Coraline</h2>
+                            <h4>BE CAREFUL WHAT YOU WISH FOR</h4>
+                            <p>When Coraline moves to an old house, she feels bored and neglected by her parents. She finds a hidden door with a bricked up passage. During the night, she crosses the passage and finds a parallel world where everybody has buttons instead of eyes, with caring parents and all her dreams coming true. When the Other Mother invites Coraline to stay in her world forever, the girl refuses and finds that the alternate reality where she is trapped is only a trick to lure her.</p>
+                    </div>
+                </td>
+              </tr>
+
+            <tr>
+                <td>Tiempo de Valientes</td>
+                <td>Damián Szifron</td>
+                <td>2005</td>
+                <td>Comedy</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                    
+                    <div class="accordion-content">
+                        <img class="img" src="img/tiempo-de-valientes-2.jpg" width="700" alt="">
+                        <div class="txt">
+                            <h2>Tiempo de Valientes</h2>
+                            <p>Mariano is a psychologist who must fulfill community service after losing a lawsuit by a traffic accident. He is forced to provide therapeutic support to Alfredo, a policeman depressed over his wife cheating on him. Mariano is then accidentally involved in a double homicide investigation being conducted by Alfredo.</p>
+                    </div>
+                </td>
+              </tr>
+
+            <tr>
+                <td>Spiderman: Into the Spider-Verse</td>
+                <td>Rodney Rothman, Peter Ramsey, Bob Persichetti</td>
+                <td>2018</td>
+                <td>Action</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                   
+                    <div class="accordion-content">
+                        <img class="img" src="img/spider.webp" width="700" alt="">
+                        <div class="txt">
+                            <h2>Spiderman: Into the Spider-Verse</h2>
+                            <h4>MORE THAN ONE WEARS THE MASK</h4>
+                            <p>Struggling to find his place in the world while juggling school and family, Brooklyn teenager Miles Morales is unexpectedly bitten by a radioactive spider and develops unfathomable powers just like the one and only Spider-Man. While wrestling with the implications of his new abilities, Miles discovers a super collider created by the madman Wilson “Kingpin” Fisk, causing others from across the Spider-Verse to be inadvertently transported to his dimension.</p>
+                    </div>
+                </td>
+              </tr>
+
+            <tr>
+                <td>Pride</td>
+                <td>Matthew Warchus</td>
+                <td>2014</td>
+                <td>Drama</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                   
+                    <div class="accordion-content">
+                        <img class="img" src="img/Pride.jpe" width="700" alt="">
+                        <div class="txt">
+                            <h2>Pride</h2>
+                            <h4>BASED ON THE INSPIRATIONAL TRUE STORY</h4>
+                            <p>Set in the summer of 1984 Margaret Thatcher is in power and the National Union of Mineworkers (NUM) is on strike. At the Gay Pride March in London, a group of gay and lesbian activists decides to raise money to support the families of the striking miners. But there is a problem. The Union seems embarrassed to receive their support.</p>
+                    </div>
+                </td>
+              </tr>
+
+            <tr>
+                <td>Jojo Rabbit</td>
+                <td>Taika Waititi</td>
+                <td>2019</td>
+                <td>Drama/Comedy</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr> 
+            <tr class="accordion">
+                <td colspan="5">
+                    
+                    <div class="accordion-content">
+                        <img class="img" src="img/original.avif" width="700" alt="">
+                        <div class="txt">
+                            <h2>Jojo Rabbit</h2>
+                            <h4>AN ANTI-HATE SATIRE</h4>
+                            <p>A World War II satire that follows a lonely German boy whose world view is turned upside down when he discovers his single mother is hiding a young Jewish girl in their attic. Aided only by his idiotic imaginary friend, Adolf Hitler, Jojo must confront his blind nationalism.</p>
+                    </div>
+                </td>
+              </tr>
+            <tr>
+                <td>What We Do in the Shadows</td>
+                <td>Taika Waititi, Jemaine Clement</td>
+                <td>2014</td>
+                <td>Comedy</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                  
+                    <div class="accordion-content">
+                        <img class="img" src="img/MV5BNDYyNzgwMzYyOV5BMl5BanBnXkFtZTgwMDY5MzAzNDE@._V1_.jpg" width="700" alt="">
+                        <div class="txt">
+                            <h2>What We Do in the Shadows</h2>
+                            <h4>SOME INTERVIEWS WITH SOME VAMPIRES</h4>
+                            <p>Vampire housemates try to cope with the complexities of modern life and show a newly turned hipster some of the perks of being undead.</p>
+                    </div>
+                </td>
+              </tr>
+
+            <tr>
+                <td>The World's End</td>
+                <td>Edgar Wright</td>
+                <td>2013</td>
+                <td>Comedy</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                    
+                    <div class="accordion-content">
+                        <img class="img" src="img/1377184818000-XXX-WORLDS-END-MOV-JY-1672-57836808.webp" width="700" alt="">
+                        <div class="txt">
+                            <h2>The World's End</h2>
+                            <h4>GOOD FOOD. FINE ALES. TOTAL ANNIHILATION</h4>
+                            <p>Five friends who reunite in an attempt to top their epic pub crawl from 20 years earlier unwittingly become humankind’s only hope for survival.</p>
+                    </div>
+                </td>
+              </tr>
+
+            <tr>
+                <td>ParaNorman</td>
+                <td>Sam Fell, Chris Butler</td>
+                <td>2012</td>
+                <td>Comedy</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                   
+                    <div class="accordion-content">
+                        <img class="img" src="img/image-w1280 (1).webp" width="700" alt="">
+                        <div class="txt">
+                            <h2>ParaNorman</h2>
+                            <h4>IT'S ALL FUN AND GAMES UNTIL SOMEONE RAISES THE DEAD</h4>
+                            <p>In the town of Blithe Hollow, Norman Babcock can speak to the dead, but no one other than his eccentric new friend believes his ability is real. One day, Norman's eccentric uncle tells him of a ritual he must perform to protect the town from a curse cast by a witch centuries ago.</p>
+                    </div>
+                </td>
+              </tr>
+
+            <tr>
+                <td>Tangled</td>
+                <td>Byron Howard, Nathan Greno</td>
+                <td>2010</td>
+                <td>Comedy</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                  
+                  <div class="accordion-content">
+                    <img class="img" src="img/rapunzel-rapunzel-a-tangled-tale-flynn-rider-wallpaper-preview.jpg" width="700" alt="">
+                    <div class="txt">
+                        <h2>Tangled</h2>
+                        <h4>THEY'RE TAKING ADVENTURE TO NEW LENGTHS</h4>
+                        <p>When the kingdom's most wanted-and most charming-bandit Flynn Rider hides out in a mysterious tower, he's taken hostage by Rapunzel, a beautiful and feisty tower-bound teen with 70 feet of magical, golden hair. Flynn’s curious captor, who’s looking for her ticket out of the tower where she’s been locked away for years, strikes a deal with the handsome thief and the unlikely duo sets off on an action-packed escapade, complete with a super-cop horse, an over-protective chameleon and a gruff gang of pub thugs.</p>
+                </div>
+                </td>
+              </tr>
+            <tr>
+                <td>Relatos Salvajes</td>
+                <td>Damián Szifron</td>
+                <td>2014</td>
+                <td>Drama</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                    
+                    <div class="accordion-content">
+                        <img class="img" src="img/RelatosSalvajes_prensa.jpg" width="700" alt="">
+                        <div class="txt">
+                            <h2>Relatos Salvajes</h2>
+                            <p>Six short stories that explore the extremities of human behavior involving people in distress.</p>
+                    </div>
+                </td>
+              </tr>
+
+              <tr>
+                <td>Kiki's Delivery Service</td>
+                <td>Hayao Miyazaki</td>
+                <td>1989</td>
+                <td>Fantasy</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                    
+                    <div class="accordion-content">
+                        <img class="img" src="img/Kiki-1.webp" width="700" alt="">
+                        <div class="txt">
+                            <h2>Kiki's Delivery Service</h2>
+                            <p>A young witch, on her mandatory year of independent life, finds fitting into a new community difficult while she supports herself by running an air courier service.</p>
+                    </div>
+                </td>
+              </tr> 
+
+              <tr>
+                <td>The Proposal</td>
+                <td>Anne Fletcher</td>
+                <td>2009</td>
+                <td>Comedy</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                    
+                    <div class="accordion-content">
+                        <img class="img" src="img/iYQcFgHg4aWzozfVtqqrn6preRx.jpg" width="700" alt="">
+                        <div class="txt">
+                            <h2>The Proposal</h2>
+                            <p>When she learns she's in danger of losing her visa status and being deported, overbearing book editor Margaret Tate forces her put-upon assistant, Andrew Paxton, to marry her.</p>
+                    </div>
+                </td>
+              </tr> 
+
+              <tr>
+                <td>Spider-Man 2</td>
+                <td>Sam Raimi</td>
+                <td>2004</td>
+                <td>Action</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+              <tr class="accordion">
+                <td colspan="5">
+                    
+                    <div class="accordion-content">
+                        <img class="img" src="img/spiderman-2-2.jpg" width="700" alt="">
+                        <div class="txt">
+                            <h2>Spider-Man 2</h2>
+                            <p>Peter Parker is going through a major identity crisis. Burned out from being Spider-Man, he decides to shelve his superhero alter ego, which leaves the city suffering in the wake of carnage left by the evil Doc Ock. In the meantime, Parker still can't act on his feelings for Mary Jane Watson, a girl he's loved since childhood.</p>
+                    </div>
+                </td>
+              </tr> 
+
+              <tr>
+                <td>Mulan</td>
+                <td>Tony Bancroft, Barry Cook</td>
+                <td>1998</td>
+                <td>Adventure</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                  
+                  <div class="accordion-content">
+                    <img class="img" src="img/gallery_princess_mulan_3_4cf97bf1_ba703b75.jpeg" width="700" alt="">
+                    <div class="txt">
+                        <h2>Mulan</h2>
+                        <h4>LET'S GET DOWN TO BUSINESS, TO DEFEAT THE HUNS</h4>
+                        <p>A tomboyish girl disguises herself as a young man so she can fight with the Imperial Chinese Army against the invading Huns. With help from wise-cracking dragon Mushu, Mulan just might save her country and win the heart of handsome Captain Li Shang.</p>
+                </div>
+                </td>
+            </tr>
+           
+            <tr>
+                <td>Clueless</td>
+                <td>Amy Heckerling</td>
+                <td>1995</td>
+                <td>Comedy</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                  
+                  <div class="accordion-content">
+                    <img class="img" src="img/ghows-OH-809149ab-6552-42af-b64e-74f65b0992ce-e63e47de.webp" width="700" alt="">
+                    <div class="txt">
+                        <h2>Clueless</h2>
+                        <h4>SEX. CLOTHES. POPULARITY. IS THERE A PROBLEM HERE?</h4>
+                        <p>Shallow, rich and socially successful Cher is at the top of her Beverly Hills high school's pecking scale. Seeing herself as a matchmaker, Cher first coaxes two teachers into dating each other. Emboldened by her success, she decides to give hopelessly klutzy new student Tai a makeover. When Tai becomes more popular than she is, Cher realizes that her disapproving ex-stepbrother was right about how misguided she was and falls for him.</p>
+                </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Dog Day Afternoon</td>
+                <td>Sidney Lumet</td>
+                <td>1975</td>
+                <td>Drama</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                  
+                  <div class="accordion-content">
+                    <img class="img" src="img/MV5BMTQ0NDQxMDYxOV5BMl5BanBnXkFtZTcwNDI1ODk1NQ@@._V1_.jpg" width="700" alt="">
+                    <div class="txt">
+                        <h2>Dog Day Afternoon</h2>
+                        <h4>THE MOST BIZARRE BANK SIEGE EVER</h4>
+                        <p>Based on the true story of would-be Brooklyn bank robbers John Wojtowicz and Salvatore Naturale. Sonny and Sal attempt a bank heist which quickly turns sour and escalates into a hostage situation and stand-off with the police. As Sonny’s motives for the robbery are slowly revealed and things become more complicated, the heist turns into a media circus.</p>
+                </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>X-Men: First Class</td>
+                <td>Matthew Vaughn</td>
+                <td>2011</td>
+                <td>Sci-Fi</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                  
+                  <div class="accordion-content">
+                    <img class="img" src="img/James-McAvoy-Mcihael-Fassbender-and-X-Men-First-Class-Cast.webp" width="700" alt="">
+                    <div class="txt">
+                        <h2>X-Men: First Class</h2>
+                        <h4>WITNESS THE MOMENT THAT WILL CHANGE OUR WORLD</h4>
+                        <p>Before Charles Xavier and Erik Lensherr took the names Professor X and Magneto, they were two young men discovering their powers for the first time. Before they were arch-enemies, they were closest of friends, working together with other mutants (some familiar, some new), to stop the greatest threat the world has ever known.</p>
+                </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>The Rocky Horror Picture Show</td>
+                <td>Jim Sharman</td>
+                <td>1975</td>
+                <td>Sci-Fi</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                  
+                  <div class="accordion-content">
+                    <img class="img" src="img/aaarrok.jpg" width="700" alt="">
+                    <div class="txt">
+                        <h2>The Rocky Horror Picture Show</h2>
+                        <h4>A DIFFERENT SET OF JAWS</h4>
+                        <p>Sweethearts Brad and Janet, stuck with a flat tire during a storm, discover the eerie mansion of Dr. Frank-N-Furter, a transvestite scientist. As their innocence is lost, Brad and Janet meet a houseful of wild characters, including a rocking biker and a creepy butler. Through elaborate dances and rock songs, Frank-N-Furter unveils his latest creation: a muscular man named 'Rocky'.</p>
+                </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>The Favourite</td>
+                <td>Yorgos Lanthimos</td>
+                <td>2018</td>
+                <td>Drama</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+              <tr class="accordion">
+                <td colspan="5">
+                    
+                    <div class="accordion-content">
+                        <img class="img" src="img/the-favourite-1535643356.jpg" width="700" alt="">
+                        <div class="txt">
+                            <h2>The Favourite</h2>
+                            <p>England, early 18th century. The close relationship between Queen Anne and Sarah Churchill is threatened by the arrival of Sarah's cousin, Abigail Hill, resulting in a bitter rivalry between the two cousins to be the Queen's favourite.</p>
+                    </div>
+                </td>
+              </tr> 
+
+              <tr>
+                <td>Palm Springs</td>
+                <td>Max Barbakow</td>
+                <td>2020</td>
+                <td>Comedy</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+              <tr class="accordion">
+                <td colspan="5">
+                    
+                    <div class="accordion-content">
+                        <img class="img" src="img/08PALMSPRINGS-1-videoSixteenByNineJumbo1600.jpg" width="700" alt="">
+                        <div class="txt">
+                            <h2>Palm Springs</h2>
+                            <p>When carefree Nyles and reluctant maid of honor Sarah have a chance encounter at a Palm Springs wedding, things get complicated as they are unable to escape the venue, themselves, or each other.</p>
+                    </div>
+                </td>
+              </tr> 
+
+              <tr>
+                <td>Arrival</td>
+                <td>Denis Villeneuve</td>
+                <td>2016</td>
+                <td>Sci-Fi</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                  
+                  <div class="accordion-content">
+                    <img class="img" src="img/arrival.jpg" width="700" alt="">
+                    <div class="txt">
+                        <h2>Arrival</h2>
+                        <h4>WHY ARE THEY HERE?</h4>
+                        <p>Taking place after alien crafts land around the world, an expert linguist is recruited by the military to determine whether they come in peace or are a threat.</p>
+                </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Shaun of the Dead</td>
+                <td>Edgar Wright</td>
+                <td>2004</td>
+                <td>Comedy</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                  
+                  <div class="accordion-content">
+                    <img class="img" src="img/5663e9f1df4c0f0ddaab933e5d680371d4e37df977f56d03479a84f2ec9fa258.jpg" width="700" alt="">
+                    <div class="txt">
+                        <h2>Shaun of the Dead</h2>
+                        <h4>A ROMANTIC COMEDY. WITH ZOMBIES</h4>
+                        <p>Shaun lives a supremely uneventful life, which revolves around his girlfriend, his mother, and, above all, his local pub. This gentle routine is threatened when the dead return to life and make strenuous attempts to snack on ordinary Londoners.</p>
+                </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Esperando la Carroza</td>
+                <td>Alejandro Doria</td>
+                <td>1985</td>
+                <td>Comedy</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                  
+                  <div class="accordion-content">
+                    <img class="img" src="img/image-w1280.jpg" width="700" alt="">
+                    <div class="txt">
+                        <h2>Esperando la Carroza</h2>
+                        <h4>AN OUT OF THE ORDINARY WEEKEND IN THE LIFE OF AN ARGENTINE FAMILY</h4>
+                        <p>Mama Cora, who is almost eighty years old, has three sons and a daughter. She lives with one of them, who has serious financial problems. The family meets one day to celebrate an anniversary meal, and that is when the problem arises: which of them will take care of her?</p>
+                </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Howl's Moving Castle</td>
+                <td>Hayao Miyazaki</td>
+                <td>2004</td>
+                <td>Fantasy</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                  
+                  <div class="accordion-content">
+                    <img class="img" src="img/MV5BMTUzMjgxNjYyOV5BMl5BanBnXkFtZTcwNDk1NzEyNw@@._V1_.jpg" width="700" alt="">
+                    <div class="txt">
+                        <h2>Howl's Moving Castle</h2>
+                        <p>When Sophie, a shy young woman, is cursed with an old body by a spiteful witch, her only chance of breaking the spell lies with a self-indulgent yet insecure young wizard and his companions in his legged, walking castle.</p>
+                </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Treasure Planet</td>
+                <td>Ron Clements, John Musker</td>
+                <td>2002</td>
+                <td>Sci-Fi</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                  
+                  <div class="accordion-content">
+                    <img class="img" src="img/l-intro-1673904541.jpg" width="700" alt="">
+                    <div class="txt">
+                        <h2>Treasure Planet</h2>
+                        <h4>FIND YOUR PLACE IN THE UNIVERSE</h4>
+                        <p>When space galleon cabin boy Jim Hawkins discovers a map to an intergalactic “loot of a thousand worlds,” a cyborg cook named John Silver teaches him to battle supernovas and space storms. But, soon, Jim realizes Silver is a pirate intent on mutiny!</p>
+                </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Prisoners</td>
+                <td>Denis Villeneuve</td>
+                <td>2013</td>
+                <td>Thriller</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                  
+                  <div class="accordion-content">
+                    <img class="img" src="img/Prisioneros.jpg" width="700" alt="">
+                    <div class="txt">
+                        <h2>Prisoners</h2>
+                        <p>When Keller Dover's daughter and her friend go missing, he takes matters into his own hands as the police pursue multiple leads and the pressure mounts. But just how far will this desperate father go to protect his family?</p>
+                </div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>Star Wars</td>
+                <td>George Lucas</td>
+                <td>1977</td>
+                <td>Sci-Fi</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                  
+                  <div class="accordion-content">
+                    <img class="img" src="img/636486225664269079-Star-Wars-Episode-IV---A-New-Hope.webp" width="700" alt="">
+                    <div class="txt">
+                        <h2>Star Wars</h2>
+                        <h4>A LONG TIME AGO IN A GALAXY FAR, FAR AWAY…</h4>
+                        <p>Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.</p>
+                </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Mamma Mia!</td>
+                <td>Phyllida Lloyd</td>
+                <td>2008</td>
+                <td>Comedy</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                  
+                  <div class="accordion-content">
+                    <img class="img" src="img/intro-1660160841.jpg" width="700" alt="">
+                    <div class="txt">
+                        <h2>Mamma Mia!</h2>
+                        <p>An independent, single mother who owns a small hotel on a Greek island is about to marry off the spirited young daughter she's raised alone. But, the daughter has secretly invited three of her mother's ex-lovers in the hopes of finding her biological father.</p>
+                </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Rope</td>
+                <td>Alfred Hitchcock</td>
+                <td>1948</td>
+                <td>Thriller</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                  
+                  <div class="accordion-content">
+                    <img class="img" src="img/rope-1.avif" width="700" alt="">
+                    <div class="txt">
+                        <h2>Rope</h2>
+                        <h4>THE GUEST WHO'S DEAD ON TIME</h4>
+                        <p>Two men attempt to prove they committed the perfect crime by hosting a dinner party after strangling their former classmate to death.</p>
+                </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Singin' in the Rain</td>
+                <td>Stanley Donen, Gene Kelly</td>
+                <td>1952</td>
+                <td>Comedy</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                  
+                  <div class="accordion-content">
+                    <img class="img" src="img/MV5BYjM0ZTFmMGQtNzA4Mi00ZDQwLWIwZTYtZjgyZDAwNWIyNDI3XkEyXkFqcGdeQVRoaXJkUGFydHlJbmdlc3Rpb25Xb3JrZmxvdw@@._V1_.jpg" width="700" alt="">
+                    <div class="txt">
+                        <h2>Singin' in the Rain</h2>
+                        <h4>WHAT A GLORIOUS FEELING!</h4>
+                        <p>In 1927 Hollywood, a silent film production company and cast make a difficult transition to sound.</p>
+                </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Clue</td>
+                <td>Jonathan Lynn</td>
+                <td>1985</td>
+                <td>Comedy</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                  
+                  <div class="accordion-content">
+                    <img class="img" src="img/clue-movie_1200x630.avif" width="700" alt="">
+                    <div class="txt">
+                        <h2>Clue</h2>
+                        <h4>SEVEN SUSPECTS, SIX WEAPONS, FIVE BODIES AND THREE ENDINGS</h4>
+                        <p>Clue finds six colorful dinner guests gathered at the mansion of their host, Mr. Boddy who turns up dead after his secret is exposed: He was blackmailing all of them. With the killer among them, the guests and Boddy's chatty butler must suss out the culprit before the body count rises.</p>
+                </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Harry Potter and the Prisoner of Azkaban</td>
+                <td>Alfonso Cuarón</td>
+                <td>2004</td>
+                <td>Fantasy</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                  
+                  <div class="accordion-content">
+                    <img class="img" src="img/co1SrMUm-Harry-Potter-and-the-Prisoner-of-Azkaban-1.jpg" width="700" alt="">
+                    <div class="txt">
+                        <h2>Harry Potter and the Prisoner of Azkaban</h2>
+                        <p>Harry, Ron and Hermione return to Hogwarts for another magic-filled year. Harry comes face to face with danger yet again, this time in the form of escaped convict, Sirius Black—and turns to sympathetic Professor Lupin for help.</p>
+                </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>The Princess Bride</td>
+                <td>Rob Reiner</td>
+                <td>1987</td>
+                <td>Fantasy</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                  
+                  <div class="accordion-content">
+                    <img class="img" src="img/Buttercup-and-Westley-in-The-Princess-Bride.webp" width="700" alt="">
+                    <div class="txt">
+                        <h2>The Princess Bride</h2>
+                        <h4>MY NAME IS INIGO MONTOYA YOU KILLED MY FATHER PREPARE TO DIE</h4>
+                        <p>In this enchantingly cracked fairy tale, the beautiful Princess Buttercup and the dashing Westley must overcome staggering odds to find happiness amid six-fingered swordsmen, murderous princes, Sicilians and rodents of unusual size. But even death can't stop these true lovebirds from triumphing.</p>
+                </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Ed Wood</td>
+                <td>Tim Burton</td>
+                <td>1994</td>
+                <td>Drama</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                  
+                  <div class="accordion-content">
+                    <img class="img" src="img/gal_ed_wood.webp" width="700" alt="">
+                    <div class="txt">
+                        <h2>Ed Wood</h2>
+                        <h4>WHEN IT CAME TO MAKING BAD MOVIES, ED WOOD WAS THE BEST</h4>
+                        <p>The mostly true story of the legendary “worst director of all time”, who, with the help of his strange friends, filmed countless B-movies without ever becoming famous or successful.</p>
+                </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Jurassic Park</td>
+                <td>Steven Spielberg</td>
+                <td>1993</td>
+                <td>Sci-Fi</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                  
+                  <div class="accordion-content">
+                    <img class="img" src="img/jurassic-park-final-original-1560847968.jpg" width="700" alt="">
+                    <div class="txt">
+                        <h2>Jurassic Park</h2>
+                        <h4>AN ADVENTURE 65 MILLION YEARS IN THE MAKING</h4>
+                        <p>A wealthy entrepreneur secretly creates a theme park featuring living dinosaurs drawn from prehistoric DNA. Before opening day, he invites a team of experts and his two eager grandchildren to experience the park and help calm anxious investors. However, the park is anything but amusing as the security systems go off-line and the dinosaurs escape.</p>
+                </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Deathtrap</td>
+                <td>Sidney Lumet</td>
+                <td>1982</td>
+                <td>Mystery</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                  
+                  <div class="accordion-content">
+                    <img class="img" src="img/deathtrap.jpg" width="700" alt="">
+                    <div class="txt">
+                        <h2>Deathtrap</h2>
+                        <h4>THE TRAP IS SET… FOR A WICKEDLY FUNNY WHO'LL-DO-IT</h4>
+                        <p>A Broadway playwright puts murder in his plan to take credit for a student's script.</p>
+                </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Frances Ha</td>
+                <td>Noah Baumbach</td>
+                <td>2012</td>
+                <td>Drama</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                  
+                  <div class="accordion-content">
+                    <img class="img" src="img/still_0_3_790x398.webp" width="700" alt="">
+                    <div class="txt">
+                        <h2>Frances Ha</h2>
+                        <p>An aspiring dancer moves to New York City and becomes caught up in a whirlwind of flighty fair-weather friends, diminishing fortunes and career setbacks.</p>
+                </div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>Shiva Baby</td>
+                <td>Emma Seligman</td>
+                <td>2020</td>
+                <td>Comedy</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                  
+                  <div class="accordion-content">
+                    <img class="img" src="img/b041f2bcdcc7c5b37ead3836727bead5211d75c3879df29c18d90968e7e667e7._RI_TTW_.jpg" width="700" alt="">
+                    <div class="txt">
+                        <h2>Shiva Baby</h2>
+                        <h4>DEATH, FAMILY STYLE</h4>
+                        <p>A college student attends a family shiva where she is accosted by her relatives, outshined by her ex-girlfriend, and face-to-face with her sugar daddy and his family.</p>
+                </div>
+                </td>
+            </tr>
+
+            
+            <tr>
+                <td>The Terminal</td>
+                <td>Steven Spielberg</td>
+                <td>2004</td>
+                <td>Drama</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                  
+                  <div class="accordion-content">
+                    <img class="img" src="img/the-terminal-2004-tom-hanks-grosby.jpg" width="700" alt="">
+                    <div class="txt">
+                        <h2>The Terminal</h2>
+                        <p>Viktor Navorski is a man without a country; his plane took off just as a coup d'etat exploded in his homeland, leaving it in shambles, and now he’s stranded at Kennedy Airport, where he’s holding a passport that nobody recognizes. While quarantined in the transit lounge until authorities can figure out what to do with him, Viktor simply goes on living and courts romance with a beautiful flight attendant.</p>
+                </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Big Fish</td>
+                <td>Tim Burton</td>
+                <td>2003</td>
+                <td>Drama</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                  
+                  <div class="accordion-content">
+                    <img class="img" src="img/Big_Fish-876753628-large.jpg" width="700" alt="">
+                    <div class="txt">
+                        <h2>Big Fish</h2>
+                        <p>Throughout his life Edward Bloom has always been a man of big appetites, enormous passions and tall tales. In his later years, he remains a huge mystery to his son, William. Now, to get to know the real man, Will begins piecing together a true picture of his father from flashbacks of his amazing adventures.</p>
+                </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Spider-Man: Homecoming</td>
+                <td>Jon Watts</td>
+                <td>2017</td>
+                <td>Action</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                  
+                  <div class="accordion-content">
+                    <img class="img" src="img/AAAABYvh_chHGRHH12hqAEuUiIQyzVIbC-6q2j_OaaS-idCcHqUGzfu4yUtAmNiCWK8lDYRh0gZFx17HR3yo2ocfF29s9VxdzC9Axq9c.jpg" width="700" alt="">
+                    <div class="txt">
+                        <h2>Spider-Man: Homecoming</h2>
+                        <h4>HOMEWORK CAN WAIT. THE CITY CAN'T</h4>
+                        <p>Following the events of Captain America: Civil War, Peter Parker, with the help of his mentor Tony Stark, tries to balance his life as an ordinary high school student in Queens, New York City, with fighting crime as his superhero alter ego Spider-Man as a new threat, the Vulture, emerges.</p>
+                </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>The Empire Strikes Back</td>
+                <td>Irvin Kershner</td>
+                <td>1980</td>
+                <td>Sci-Fi</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                  
+                  <div class="accordion-content">
+                    <img class="img" src="img/empire-strikes-back-the-1980-light-sabre-duel_1200x628.jpg" width="700" alt="">
+                    <div class="txt">
+                        <h2>The Empire Strikes Back</h2>
+                        <h4>THE ADVENTURE CONTINUES…</h4>
+                        <p>The epic saga continues as Luke Skywalker, in hopes of defeating the evil Galactic Empire, learns the ways of the Jedi from aging master Yoda. But Darth Vader is more determined than ever to capture Luke. Meanwhile, rebel leader Princess Leia, cocky Han Solo, Chewbacca, and droids C-3PO and R2-D2 are thrown into various stages of capture, betrayal and despair.</p>
+                </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>The Devil Wears Prada</td>
+                <td>David Frankel</td>
+                <td>2006</td>
+                <td>Drama/Comedy</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                  
+                  <div class="accordion-content">
+                    <img class="img" src="img/the_devil_wears_prada_7611.webp" width="700" alt="">
+                    <div class="txt">
+                        <h2>The Devil Wears Prada</h2>
+                        <h4>MEET ANDY SACHS. A MILLION GIRLS WOULD KILL TO HAVE HER JOB. SHE'S NOT ONE OF THEM</h4>
+                        <p>Andy moves to New York to work in the fashion industry. Her boss is extremely demanding, cruel and won't let her succeed if she doesn't fit into the high class elegant look of their magazine.</p>
+                </div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>Knives Out</td>
+                <td>Rian Johnson</td>
+                <td>2019</td>
+                <td>Mystery</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                  
+                  <div class="accordion-content">
+                    <img class="img" src="img/original (1).avif" width="700" alt="">
+                    <div class="txt">
+                        <h2>Knives Out</h2>
+                        <p>When renowned crime novelist Harlan Thrombey is found dead at his estate just after his 85th birthday, the inquisitive and debonair Detective Benoit Blanc is mysteriously enlisted to investigate. From Harlan's dysfunctional family to his devoted staff, Blanc sifts through a web of red herrings and self-serving lies to uncover the truth behind Harlan's untimely death.</p>
+                </div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>Baby Driver</td>
+                <td>Edgar Wright</td>
+                <td>2017</td>
+                <td>Action</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                  
+                  <div class="accordion-content">
+                    <img class="img" src="img/baby-driver.webp" width="700" alt="">
+                    <div class="txt">
+                        <h2>Baby Driver</h2>
+                        <h4>ALL YOU NEED IS ONE KILLER TRACK</h4>
+                        <p>After being coerced into working for a crime boss, a young getaway driver finds himself taking part in a heist doomed to fail.</p>
+                </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Once Upon a Time… in Hollywood</td>
+                <td>Quentin Tarantino</td>
+                <td>2019</td>
+                <td>Drama</td>
+                <td><i class="bi bi-plus-lg"></i></td>
+            </tr>
+            <tr class="accordion">
+                <td colspan="5">
+                  
+                  <div class="accordion-content">
+                    <img class="img" src="img/_107064919_d2c684e4-cb80-4fb7-9dfc-34c9fb2f2fda.jpg" width="700" alt="">
+                    <div class="txt">
+                        <h2>Once Upon a Time… in Hollywood</h2>
+                        <h4>IN THIS TOWN, IT CAN ALL CHANGE… LIKE THAT</h4>
+                        <p>Los Angeles, 1969. TV star Rick Dalton, a struggling actor specializing in westerns, and stuntman Cliff Booth, his best friend, try to survive in a constantly changing movie industry. Dalton is the neighbor of the young and promising actress and model Sharon Tate, who has just married the prestigious Polish director Roman Polanski…</p>
+                </div>
+                </td>
+            </tr>
+
+            </tbody>
+        </table>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
