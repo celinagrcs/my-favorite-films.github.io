@@ -25,8 +25,3 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-
-  //   // Limpia los campos del formulario
-  //   movieForm.reset();
-  // });
-
